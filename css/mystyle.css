@@ -1,0 +1,201 @@
+html{
+    
+}
+body{
+    background-image: linear-gradient(#FC5E55,#FA4083);
+    font-family:Arial,Helvetica,sans-serif;
+    color: white;
+    background-repeat:repeat;
+    font-size: 16px;
+    padding-bottom: 50px;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.container{
+    width: 1024px;
+    min-height: 300px;
+    margin-left: auto;
+    margin-right:auto;
+}
+header{
+  
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid lightgrey;
+}
+main{
+  
+    min-height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+}
+.cards{
+   
+    min-height: 200px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    
+}
+main .herobox-1{
+    
+    flex: 2;
+    padding-left: 40px;
+    padding-right: 100px;
+    
+}
+.herobox-1 h1{
+    font-size: 50px;
+    
+}
+.herobox-1 p{
+    font-size: 17px;
+}
+.mybutton {
+    background-color: white;
+    color: #FA4083;
+    font-family: 'Playfair Display', serif;
+    padding: 11px 25px;
+    border-radius: 2px;
+    box-shadow: 0px 2px 2px rgb(0 0 0 / 23%);
+}
+a{
+        text-decoration: none;
+}
+.mybutton:hover{
+    background-color: lightgreen;
+    transition-duration: 1s;
+}
+main .herobox-2{
+    
+    flex: 1;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+ 
+}
+.card1 {
+    background-image: url(../images/image-background-card1.jpg);
+    background-size: cover;
+    background-position: bottom;
+    min-height: 250px;
+    width: 30%;   
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.288);
+}
+.card2 {
+    background-image: url(../images/image-background-card2.jpg);
+    background-size: cover;
+    background-position: bottom;
+    min-height: 250px;
+    width: 30%;   
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.228);
+}
+.card3 {
+    background-image: url(../images/image-background-card3.jpg);
+    background-size: cover;
+    background-position: bottom;
+    min-height: 250px;
+    width: 30%;   
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.228);
+    
+}
+h1{
+    font-size: 80px;
+}
+.card1, .card2, .card3 {
+    padding: 30px 30px 20px 30px; 
+    box-sizing: border-box;
+}
+.card1 .card2 .card3, h2{
+    font-size: 1.9rem;
+}
+.card1 .card2 .card3, p{
+    font-size: 0.855rem;
+    margin-top: -20px;
+}
+section{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.t-box{
+   
+    width: 47%;
+    padding: 50px;
+    border: 1px solid white;
+    box-sizing: border-box;
+    margin-top: 50px;
+    
+
+}
+.t-box p{
+    padding-top: 10px;
+     font-size: 1.1rem;
+}
+.t-box p.names{
+    
+    padding-left: 30px;
+     font-size: 0.8rem;
+}
+a.mybutton {
+    display: inline-block;
+    margin-top: 1
+    0px;
+}
+
+nav a.mybutton {
+    margin-left: 30px;
+}
+
+.navbutton {
+    border: 1px solid white;
+    padding: 11px 25px;
+    font-family: 'Playfair Display', serif;
+    display: inline-block;
+    position: relative;
+}
+.dropdown {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.navbutton:hover .dropdown {
+    display: block;
+}
+
+.dropdown .navbutton {
+    width: 120px;
+    background-color: white;
+}
+
+.dropdown .navbutton a {
+    color: #FA4083;
+}
+.dropdown .navbutton:hover {
+    background-color: rgba(0,0,0,0.7); 
+}
+.dropdown .navbutton:hover a { 
+    color: white;
+}
+.newbox{
+    margin-left: -40px;
+}
+.footer{
+    text-align: center;
+    margin-top: 60px;
+}
